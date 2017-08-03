@@ -267,12 +267,15 @@
 				<div class="clear"></div>
 			</div>
 		</div>
+<<<<<<< HEAD
 		<div>Working with Git</div>		
 		<div>working on git .. master branch changes</div>
+=======
+		<div>Working with Git Hub</div>
+		<div>working with gitpractise1-First commit</div>
 		<div>git upstream push</div>
+>>>>>>> refs/remotes/origin/master
 		<div>Git clone from GitHub </div>
-		<div>Working with pull requests</div>
-		<div>working with pull request2</div>
 
 	</footer>
 	<!-- footer end -->
