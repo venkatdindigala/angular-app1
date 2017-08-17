@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+	<meta charset="utf-8" />
+	<meta name="format-detection" content="telephone=no">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<title>Stearns</title>
+
+	<!--CSS Files-->
+	<link rel="stylesheet" type="text/css" href="includes/styles/bootstrap-3.3.7.min.css" />
+	<link rel="stylesheet" href="includes/styles/reset.css" />
+	<link rel="stylesheet/less" type="text/css" href="includes/styles/styles.less" />
+	<link rel="icon" href="./includes/images/favicon.ico" type="image/gif">
+	<link rel="stylesheet/less" type="text/css" href="includes/styles/owl.carousel.css" />
+</head>
+
+<body class="page-body">
+	<div class="wrapper container-fluid">
+		<header class="header row">
+			<div class="row">
+				<div class="header-nav-wrap col-lg-7 col-sm-7 col-xs-6">
+					<a class="logo pull-left" href="index.html"><img src="./includes/images/logo.png"></a>
+					<ul class="header-nav">
+						<li>
+							<a href="your-journey.html">Your Journey<span class="menu-underline"></span></a>
+						</li>
+						<li>
+							<a href="your-options.html">Your Options<span class="menu-underline"></span></a>
+						</li>
+						<li>
+							<a href="contactUs.html">Contact Us<span class="menu-underline"></span></a>
+						</li>
+						<li>
+							<a href="about-us.html">About Us<span class="menu-underline"></span></a>
+						</li>
+						<li>
+							<a href="blogHome.html">Blog<span class="menu-underline"></span></a>
+						</li>
+					</ul>
+				</div>
+				<div class="header-control-wrap col-lg-5 col-sm-5 col-xs-6">
+					<button type="button" id="hamMenu" class="navbar-toggle collapsed header-menu pull-right" data-toggle="collapse" data-target="#header-nav"
+					 aria-expanded="false">
+                        	<span class="sr-only">Toggle navigation</span>
+	                        <span class="icon-bar"></span>
+	                        <span class="icon-bar"></span>
+	                        <span class="icon-bar"></span>
+	                    </button>
+					<ul class="header-control pull-right">
+						<li>
+							<a class="profile-wrap" data-placement="bottom" data-toggle="popover" data-container="body" data-placement="center" type="button"
+							 data-html="true">
+								<img class="profilePopupAnimate animation" src="includes/images/mloProfile50px.jpg">
+							</a>
+
+							<a class="profile-wrap-mob" role="button" data-toggle="modal" data-target="#profilePopupmodal">
+								<img class="profilePopupAnimate animation" src="includes/images/mloProfile30px.jpg">
+							</a>
+						</li>
+						<li>
+							<a class="phone-number call" href="tel:+8558396487" target="_blank">
+								<span class="glyphicon glyphicon-earphone earphone-icon"></span>
+								<span class="number">855.839.6487</span>
+							</a>
+							<span class="phone-number no-call">
+									<span class="glyphicon glyphicon-earphone earphone-icon"></span>
+							<span class="number">855.839.6487</span>
+							</span>
+						</li>
+						<li class="getStarted-btn">
+							<button class="secondary-button" id="headerButton">
+									<a class="getStartedLink" href="get-started.html">Get Started</a>
+								</button>
+						</li>
+						<li>
+							<a class="header-login text-uppercase" data-toggle="modal" data-target="#loginModal" href="javascript:void(0)">Login<span class="menu-underline"></a>
+						</li>
+					</ul>
+				</div>
+				<div class="responsive-menu hidden-lg" id="responsiveMenu">
+					<ul class="main-menu">
+						<li>
+							<a href="your-journey.html">Your Journey<span class="menu-underline"></span></a>
+						</li>
+						<li>
+							<a href="your-options.html">Your Options<span class="menu-underline"></span></a>
+						</li>
+						<li>
+							<a href="contactUs.html">Contact Us<span class="menu-underline"></span></a>
+						</li>
+						<li>
+							<a href="about-us.html">About Us<span class="menu-underline"></span></a>
+						</li>
+						<li>
+							<a href="blogHome.html">Blog<span class="menu-underline"></span></a>
+						</li>
+					</ul>
+					<ul class="actions-menu">
+						<li>
+							<a class="getStartedLink" href="get-started.html">Get Started<span class="menu-underline"></span></a>
+						</li>
+						<li>
+							<a class="header-login" data-toggle="modal" data-target="#loginModal" href="javascript:void(0)">Login<span class="menu-underline"></span></a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</header>
+
+
+		<div class="overlay">&nbsp;</div>
+		<div class="main-content row">
+			<div class="banner-wrapper">
+				<div class="owl-carousel owl-theme index">
+					<div class="item">
+						<div class="slider-img hidden-xs" style="background:url('./includes/images/journey.jpg');">
+							<div class="slider-content col-lg-4 col-md-7 col-sm-7 col-xs-10">
+								<h1>Welcome</h1>
+								<p class="content">In addition glenn built a leadership retreat for horatio alger scholars on Richard Branson's private Necker island.</p>
+							</div>
+						</div>
+						<div class="slider-img visible-xs" style="background:url('./includes/images/banner_mobile.jpg');">
+							<div class="slider-content col-lg-4 col-md-7 col-sm-7 col-xs-10">
+								<h1>Welcome</h1>
+								<p class="content">In addition glenn built a leadership retreat for horatio alger scholars on Richard Branson's private Necker island.</p>
+							</div>
+						</div>
+					</div>
+					<div class="item">
+						<div class="slider-img hidden-xs" style="background:url('./includes/images/banner.jpg');">
+							<div class="slider-content col-lg-4 col-md-7 col-sm-7 col-xs-10">
+								<h1>First Time Home Buyer</h1>
+
+								<p class="content">Main sheet chase rigging reef pink Sink me survey Buccaneer yardarm heace down Main sheet chase rigging reef pink
+									Sink me survey Buccaneer yardarm heace down Main sheet chase rigging reef pink Sink me survey Buccaneer yardarm
+									heace down. Buccaneer yardarm heace down Main sheet chase down Main sheet chase down Main hello </p>
+
+								<div class="button-wrapper"><button class="primary-button">Start Your Journey</button></div>
+							</div>
+						</div>
+						<div class="slider-img visible-xs" style="background:url('./includes/images/banner_mobile.jpg');">
+							<div class="slider-content col-lg-4 col-md-7 col-sm-7 col-xs-10">
+								<h1>First Time Home Buyer</h1>
+
+								<p class="content">Main sheet chase rigging reef pink Sink me survey Buccaneer yardarm heace down Main sheet chase rigging reef pink
+									Sink me survey Buccaneer yardarm heace down Main sheet chase rigging reef pink Sink me survey Buccaneer yardarm
+									heace down. Buccaneer yardarm heace down Main sheet chase down Main sheet chase down Main hello </p>
+
+								<div class="button-wrapper"><button class="primary-button">Start Your Journey</button></div>
+							</div>
+						</div>
+					</div>
+
+					<div class="item">
+						<div class="slider-img hidden-xs" style="background:url('./includes/images/banner.jpg');">
+							<div class="slider-content col-lg-4 col-md-7 col-sm-7 col-xs-10">
+								<h1>Buy A Home</h1>
+
+								<p class="content">Main sheet chase rigging reef pink Sink me survey Buccaneer yardarm heace down.</p>
+
+								<div class="button-wrapper"><button class="primary-button">Start Your Journey</button></div>
+							</div>
+						</div>
+						<div class="slider-img visible-xs" style="background:url('./includes/images/banner_mobile.jpg');">
+							<div class="slider-content col-lg-4 col-md-7 col-sm-7 col-xs-10">
+								<h1>Buy A Home</h1>
+
+								<p class="content">Main sheet chase rigging reef pink Sink me survey Buccaneer yardarm heace down.</p>
+
+								<div class="button-wrapper"><button class="primary-button">Start Your Journey</button></div>
+							</div>
+						</div>
+					</div>
+
+					<div class="item">
+						<div class="slider-img hidden-xs" style="background:url('./includes/images/banner.jpg');">
+							<div class="slider-content col-lg-4 col-md-7 col-sm-7 col-xs-10">
+								<h1>Refinance</h1>
+
+								<p class="content">Main sheet chase rigging reef pink Sink me survey Buccaneer yardarm heace down.</p>
+
+								<div class="button-wrapper"><button class="primary-button">Start Your Journey</button></div>
+							</div>
+						</div>
+						<div class="slider-img visible-xs" style="background:url('./includes/images/banner_mobile.jpg');">
+							<div class="slider-content col-lg-4 col-md-7 col-sm-7 col-xs-10">
+								<h1>Refinance</h1>
+
+								<p class="content">Main sheet chase rigging reef pink Sink me survey Buccaneer yardarm heace down.</p>
+
+								<div class="button-wrapper"><button class="primary-button">Start Your Journey</button></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="sliderWrapper text-left">
+				<input id="slider" type="range" min="0" max="100" value="0" />
+				<div class="slider-label-div" id="sliderLabelDiv">
+					<span class="slider-label text-left" id="label-1">Welcome</span>
+					<span class="slider-label text-left" id="label-2">My First Home</span>
+					<span class="slider-label text-center" id="label-3">My Next Home</span>
+					<span class="slider-label text-right" id="label-4">My Refinance</span>
+				</div>
+			</div>
+			<div class="content-block ">
+
+				<div class="content-panel ">
+					<div class="row center-wrap">
+						<div class="img-panel col-lg-6 col-md-6 col-md-push-6">
+							<img src="./includes/images/quick_link.jpg">
+						</div>
+						<div class="description-panel text-right col-lg-6 col-md-6 col-md-pull-6">
+							<div class="panel-wrapper">
+								<h2>Buy A Home</h2>
+								<div class="info-wrap">
+									<p>
+										Prow scuttle parrel provost sail ho shrouds spirits boom mizzement yardarm.Pinnace holystone mizzement quarter crow's nest
+										nipperkin grog yardarm hempen halter furl. Swab barque interloper chantey doubloon starboard grog black jack gangway
+										rutters.
+									</p>
+								</div>
+								<div class="button-wrapper">
+									<button class="primary-button">
+											Buy A Home
+										</button>
+
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="content-panel ">
+					<div class="row center-wrap">
+						<div class="img-panel text-right col-lg-6 col-md-6">
+							<img src="./includes/images/quick_link.jpg">
+						</div>
+						<div class="description-panel text-left col-lg-6 col-md-6">
+							<h2>Buy A Home</h2>
+							<div class="info-wrap">
+								<p>
+									Prow scuttle parrel provost sail ho shrouds spirits boom mizzement yardarm.Pinnace holystone mizzement quarter crow's nest
+									nipperkin grog yardarm hempen halter furl. Swab barque interloper chantey doubloon starboard grog black jack gangway
+									rutters.
+								</p>
+							</div>
+							<div class="button-wrapper">
+								<button class="primary-button">
+										Buy A Home
+									</button>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+
+			<section class="testimonial index-testimonial">
+				<div id="myCarousel" class="carousel slide" data-ride="carousel">
+					<!-- Indicators -->
+					<ol class="carousel-indicators">
+						<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+						<li data-target="#myCarousel" data-slide-to="1"></li>
+						<li data-target="#myCarousel" data-slide-to="2"></li>
+					</ol>
+
+					<!-- Wrapper for slides -->
+					<div class="carousel-inner" role="listbox">
+
+						<div class="item active">
+							<div class="hidden-xs" style="background: url('./includes/images/testimonial.jpg')">
+								<div class="row">
+									<div class="text-left col-lg-7">
+										<div class="testimonial-wrapper">
+											<div class="testimonial-caption">
+												<h3>We Don't Need To Brag – Our Customers Do It For Us! </h3>
+											</div>
+											<div class="testimonial-content">
+												<blockquote>
+													For me - most of all "I Can Help You!" means the attitude I have when helping our customers, a fellow employee or business
+													partner ...striving to be cheerful, patient and kind always and always will be.I have when helping our customers,
+													a fellow employee I have when help employee I have when help have when help have when
+												</blockquote>
+											</div>
+											<div class="testimonial-footer text-right">- Geoff Homeloan, california
+												<div class="designation ">Employee</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="visible-xs" style="background: url('./includes/images/testimonial.jpg')">
+								<div class="row">
+									<div class="text-left col-lg-7">
+										<div class="testimonial-wrapper">
+											<div class="testimonial-caption">
+												<h3>We Don't Need To Brag – Our Customers Do It For Us! </h3>
+											</div>
+											<div class="testimonial-content">
+												<blockquote>
+													For me - most of all "I Can Help You!" means the attitude I have when helping our customers, a fellow employee or business
+													partner ...striving to be cheerful, patient and kind always and always will be.I have when helping our customers,
+													a fellow employee I have when help employee I have when help have when help have when
+												</blockquote>
+											</div>
+											<div class="testimonial-footer text-right">- Geoff Homeloan, california
+												<div class="designation ">Employee</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="item">
+							<div class="hidden-xs" style="background: url('./includes/images/testimonial2.jpg')">
+								<div class="row">
+									<div class="text-left col-lg-7">
+										<div class="testimonial-wrapper">
+											<div class="testimonial-caption">
+												<h3>We Don't Need To Brag – Our Customers Do It For Us! </h3>
+											</div>
+											<div class="testimonial-content">
+												<blockquote>
+													Getting Buyers into their dream home! Getting Buyers into
+												</blockquote>
+											</div>
+											<div class="testimonial-footer text-right">- Geoff Homeloan, california
+												<div class="designation ">Employee</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="visible-xs" style="background: url('./includes/images/testimonial2.jpg')">
+								<div class="row">
+									<div class="text-left col-lg-7">
+										<div class="testimonial-wrapper">
+											<div class="testimonial-caption">
+												<h3>We Don't Need To Brag – Our Customers Do It For Us! </h3>
+											</div>
+											<div class="testimonial-content">
+												<blockquote>
+													Getting Buyers into their dream home! Getting Buyers into
+												</blockquote>
+											</div>
+											<div class="testimonial-footer text-right">- Geoff Homeloan, california
+												<div class="designation ">Employee</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="item">
+							<div class="hidden-xs" style="background: url('./includes/images/testimonial3.jpg')">
+								<div class="row">
+									<div class="text-left col-lg-7">
+										<div class="testimonial-wrapper">
+											<div class="testimonial-caption">
+												<h3>We Don't Need To Brag – Our Customers Do It For Us! </h3>
+											</div>
+											<div class="testimonial-content">
+												<blockquote>
+													Getting Buyers into their dream home! Getting Buyers into
+												</blockquote>
+											</div>
+											<div class="testimonial-footer text-right">- Geoff Homeloan, california
+												<div class="designation ">Employee</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="visible-xs" style="background: url('./includes/images/testimonial3.jpg')">
+								<div class="row">
+									<div class="text-left col-lg-7">
+										<div class="testimonial-wrapper">
+											<div class="testimonial-caption">
+												<h3>We Don't Need To Brag – Our Customers Do It For Us! </h3>
+											</div>
+											<div class="testimonial-content">
+												<blockquote>
+													Getting Buyers into their dream home! Getting Buyers into
+												</blockquote>
+											</div>
+											<div class="testimonial-footer text-right">- Geoff Homeloan, california
+												<div class="designation ">Employee</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+					</div>
+
+				</div>
+			</section>
+			<div class="content-block stats-container">
+				<div class="content-panel">
+					<div class="row center-wrap text-center statistics">
+						<div class="col-sm-6">
+							<h2>909,256</h2>
+							<h3>Total Number of Customers Served</h3>
+						</div>
+						<div class="col-sm-6">
+							<h2>Ranked #2</h2>
+							<h3>in Mortgage Executive Magazine’s<br/> Top 100 Mortgage Companies in America.</h3>
+						</div>
+					</div>
+				</div>
+				<div class="content-panel">
+					<div class="center-wrap text-center">
+						<h2>Welcome Home.</h2>
+						<h3>Ready to get started?</h3>
+						<div class="buttonWrapper">
+							<button class="primary-button">Get started</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Modal -->
+
+		<div class="modal fade login-wrapper" id="loginModal" role="dialog">
+			<div class="modal-dialog" id="loginDialog">
+				<div class="modal-content">
+					<div class="modal-body">
+						<div class="option">
+							<a href='#'> Digital Platform</a>
+						</div>
+						<div class="option">
+							<a href="#">Service Portal</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- -->
+
+		<!-- Profile Popover -->
+
+		<div id="popover-content" class="hide">
+			<img src="includes/images/no-images.png">
+			<h5>Neil Khan</h5>
+			<p><span class="barLine"><span class="paddingRight">Loan officer</span></span>
+				<span>NMLS#: 633628</span>
+			</p>
+			<p><i>I can help you!</i></p>
+			<a class="primary-button MLO-nav" href="MLOdetails.html" target="_blank">Visit my Page</a>
+		</div>
+
+		<!-- -->
+
+		<!-- Profile Modal -->
+
+		<!-- profile popup Modal -->
+		<div class="modal fade" id="profilePopupmodal" tabindex="-1" role="dialog" aria-labelledby="profilePopupmodalLabel">
+			<div class="modal-dialog modal-sm" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+					</div>
+					<div class="modal-body text-center">
+						<img src="includes/images/no-images.png">
+						<h5>Neil Khan</h5>
+						<p><span class="">Loan officer</span></p>
+						<p><span>NMLS#: 633628</span></p>
+						<p><i>I can help you!</i></p>
+						<button class="primary-button MLO-nav">Visit my Page</button>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- -->
+
+		<div class="push"></div>
+	</div>
+	<!-- Footer Section -->
+	<footer>
+		<div class="footer-wrap text-center">
+			<!--<div class="alerts footer-section">
+	        			<p>
+                            <span>STEARNS ALERTS :</span>
+                            <span>Security Update Attackers Posing as Stearns</span>
+                            <a href="alerts.html" target="_blank" class="learn-more">Learn More</a>
+                        </p>
+	        		</div>-->
+			<div class="foot-links footer-section">
+				<ul class="">
+					<li>
+						<a href="licensing.html" target="_blank">Licensing<span class="menu-underline"></span></a>
+					</li>
+					<li>
+						<a href="http://www.nmlsconsumeraccess.org/" target="_blank">NMLS Consumer Access<span class="menu-underline"></span></a>
+					</li>
+					<li class="nmlsNum">
+						Company NMLS #1854
+					</li>
+					<li>
+						<a href="terms-of-use.html" target="_blank">Terms of Use<span class="menu-underline"></span></a>
+					</li>
+					<li>
+						<a href="https://stearns.com/wp-content/themes/stearns/pdf/Stearns-Privacy-Policy.pdf" target="_blank">Privacy Policy<span class="menu-underline"></span></a>
+					</li>
+					<li>
+						<a href="http://stearns.force.com/careers" target="_blank">Careers<span class="menu-underline"></span></a>
+					</li>
+					<li>
+						<a href="calculator.html" target="_blank">Calculator<span class="menu-underline"></span></a>
+					</li>
+				</ul>
+			</div>
+			<div class="connect-links footer-section">
+				<ul class="socialMediaList">
+					<li class="connect-label">
+						Connect With Us :
+					</li>
+					<li class="mediaIcon">
+						<a class="linkedInIcon" href="http://www.linkedin.com/company/stearns-lending" target="_blank"></a>
+					</li>
+					<li class="mediaIcon">
+						<a class="facebookIcon" href="https://www.facebook.com/StearnsHomeLoans" target="_blank"></a>
+					</li>
+					<li class="mediaIcon">
+						<a class="twitterIcon" href="https://twitter.com/StearnsOfficial" target="_blank"></a>
+					</li>
+					<li class="mediaIcon">
+						<a class="instagramIcon" href="https://www.instagram.com/stearnslending/" target="_blank"></a>
+					</li>
+					<li class="mediaIcon googlePlus">
+						<a class="googlePlusIcon" href="https://plus.google.com/+StearnsHomeLoans" target="_blank"></a>
+					</li>
+					<li class="mediaIcon">
+						<a class="youtubeIcon" href="https://www.youtube.com/StearnsHomeLoans" target="_blank"></a>
+					</li>
+				</ul>
+			</div>
+			<div class="contact-links footer-section">
+				<ul class="contacts text-uppercase">
+					<li>
+						<a href="tel:+8558396487" class="menu-contact" target="_blank">
+							<span class="glyphicon glyphicon-earphone"></span>
+							<span class="number">855.839.6487</span>
+						</a>
+					</li>
+					<li>
+						<a href="mailto:yhome@stearns.com" class="menu-contact" target="_blank">
+							<span class="glyphicon glyphicon-envelope"></span>
+							<span class="number">myhome@stearns.com</span>
+						</a>
+					</li>
+				</ul>
+			</div>
+			<div class="footerNote footer-section ">
+				<p class="footNote">
+					&copy; 2016 Stearns Lending LLC. All Rights Reserved.
+				</p>
+				<a class="footerNoteIcon businessIcon" href="https://www.bbb.org/sdoc/business-reviews/mortgage-lender/stearns-lending-llc-in-santa-ana-ca-13035938/#bbbonlineclick"
+				 target="_blank"></a>
+				<span class="footerNoteIcon housingIcon"></span>
+
+				<div class="clear"></div>
+			</div>
+		</div>
+		<div>Git stashing</div>
+<<<<<<< Updated upstream
+		<div>git interactive commands changes</div>
+=======
+>>>>>>> Stashed changes
+	</footer>
+	<!-- footer end -->
+
+	<!--JS Files-->
+
+	<script type="text/javascript" src="includes/js/libraries/jquery-3.1.1.min.js"></script>
+	<script type="text/javascript" src="includes/js/libraries/bootstrap-3.3.7.min.js"></script>
+	<script type="text/javascript" src="includes/js/libraries/less.min.js"></script>
+	<script type="text/javascript" src="includes/js/custom.js"></script>
+	<!--<script type="text/javascript" src="includes/js/index.js"></script>-->
+	<script type="text/javascript" src="includes/js/libraries/owl.carousel.min.js"></script>
+
+	<!-- js end -->
+
+</body>
+
+</html>
